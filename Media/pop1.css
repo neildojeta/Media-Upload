@@ -1,0 +1,162 @@
+.button3 {
+  font-size: 1em;
+
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  font-weight:bold;
+}
+.button3:hover {
+  opacity:0.7;
+	font-weight:bold;
+}
+
+.overlay3{
+  position: fixed;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.9); /* background with opacity  */
+  transition: opacity 600ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index:39000;
+}
+.overlay3:target {
+  visibility: visible;
+  opacity: 1;
+  z-index:400;
+}
+
+.popup3 {
+  margin: 90px auto;
+  background: #fff;
+  border-radius:20px;
+  font-family: Arial;
+  width: 27%;
+  height:auto;
+  position: relative;
+  transition: all 5s ease-in-out;
+  border:2px solid black;
+}
+
+.popup3 .close3 {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup3 .close3:hover {
+  color: red;
+}
+.popup3 .content3 {
+  max-height: 98%;
+  overflow: auto;
+ 
+}
+#top11
+{
+ position:relative;
+ 
+z-index:500;
+}
+@media screen and (max-width: 700px){
+  .box3{
+    width: 110%;
+
+  }
+  .popup3{
+    width: 90%;
+	
+  }
+}
+
+/*end of first pop-up*/
+.button3b {
+  font-size: 1em;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  font-weight:bold;
+}
+.button3b:hover {
+  opacity:0.7;
+	font-weight:bold;
+}
+
+.overlay3b{
+  position: fixed;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8); /* background with opacity  */
+  transition: opacity 600ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index:19000;
+}
+.overlay3b:target {
+  visibility: visible;
+  opacity: 1;
+  z-index:400;
+}
+
+.popup3b {
+  margin: 90px auto;
+  background: #fff;
+  border-radius:5px;
+  font-family:arial;
+  padding-left:20px;
+  width: 27%;
+  height:auto;
+  position: relative;
+  transition: all 5s ease-in-out;
+  border:2px solid black;
+
+}
+
+.popup3b h6 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup3b .close3b {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup3b .close3b:hover {
+  color: #06D85F;
+}
+.popup3b .content3b {
+  max-height: 98%;
+  overflow: auto;
+ 
+}
+#top11
+{
+ position:relative;
+ 
+z-index:500;
+}
+@media screen and (max-width: 700px){
+  .box3b{
+    width: 110%;
+
+  }
+  .popup3b{
+    width: 90%;
+  }
+}
+
